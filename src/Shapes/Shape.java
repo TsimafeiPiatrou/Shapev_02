@@ -5,7 +5,9 @@ public abstract class Shape {
     public Shape(){
     }
 
-    public abstract double getVolume();
+    public double getVolume(){
+        return 0;
+    }
 
     public void setVolume(){
         this.volume=volume;
